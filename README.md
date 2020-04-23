@@ -127,9 +127,9 @@ where r.enddate::date > now() and h.enddate::date > now()
 </p>
 </details>
 
-Так же есть скрипт по причесыванию адресов, он вот такой:
+Так же есть скрипт по разделению адресов на юниты, он вот такой:
 
-<details><summary>Причесывание адресов</summary>
+<details><summary>Разделение адресов на юниты</summary>
 <p>
 
 ```python
@@ -141,8 +141,7 @@ from core.database.db import DB
 
 def divide_addresses(df):
     """
-    Function divides address into subunits with the rules explained there:
-    http://10.50.124.101:20001/pages/viewpage.action?pageId=39649340
+    Function divides address into subunits
     Args:
         df: dataframe with columns ['city', 'county', 'street', 'sub_county']
 
