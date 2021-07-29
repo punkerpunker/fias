@@ -43,7 +43,7 @@ for nm in ['addrob', 'house', 'stead', 'room', 'nordoc']:
 
 Изначально, сбор адресов происходил в соответствии с этими статьями на хабре:
 
-1. https://habr.com/ru/post/316314/  (1 часть)
+1. https://habr.com/ru/post/316314/  (1 часть)
 2. https://habr.com/ru/post/316380/  (2 часть)
 3. https://habr.com/ru/post/316622/  (3 часть)
 4. https://habr.com/ru/post/316856/  (4 часть)
